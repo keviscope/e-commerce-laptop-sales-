@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="laptop.css">
+
+</head>
+<body>
+    <div class="front">
+  <img src="image/1.jpg" >  
+    </div>
+<div class="mainZone" style="display: none;">
+<h1>LAPTOP FOR SALE</h1>
+<img src="image/a.jpg" alt="" class="slidderImg" height="400px" width="400px">
+<br>
+<button onclick="prev()" id="prev">Prev</button>
+<button onclick="getDetails()" id="getDetailsNow">View Details</button>
+<button onclick="next()" id="next">Next</button>
+
+<div class="laptop1">
+<img src="image/a.jpg" height="100px" width="100px">
+<p><span class="lapyFeatures"><b>TYPE:</b></span>
+2.4HZ TOUCH SCREEN
+<br><br>
+<span class="memory"><b>MEMORY:</b></span>8GB & 1TB 
+    <br>
+<br>
+<span class="lapyPrice"><b>PRICE:</b></span> #120k
+<br><br><br>
+<button class="buyNow"><strong>BUY NOW</strong></button>
+</p>
+</div>
+
+
+
+
+<div class="laptopA">
+    <p><span class="lapyFeaturesA"><b>TYPE:</b></span>
+    2.4HZ TOUCH SCREEN, 8GB & 1TB
+    <br><br>
+    <span class="lapyPriceA"><b>PRICE:</b></span> #120k
+    <br><br>
+ </p>
+</div> 
+
+
+
+<div class="laptop2">
+    <img src="image/b.jpg" height="100px" width="100px">
+    <p><span class="lapyFeatures"><b>TYPE:</b></span>
+   PAVILION 12.6 INCHES
+    <br><br>
+    <span class="memory"><b>MEMORY:</b></span>8GB & 1TB 
+    <br><br>
+    <span class="lapyPrice"><b>PRICE:</b></span> #165000k
+    <br><br><br>
+    <button class="buyNow1"><strong>BUY NOW</strong></button>
+    </p>
+    </div>
+
+    <div class="laptopB">
+        <p><span class="lapyFeaturesA"><b>TYPE:</b></span>
+            PAVILION 12.6 INCHES, 8GB & 1TB
+        <br><br>
+        <span class="lapyPriceA"><b>PRICE:</b></span> #165k
+        <br><br>
+     </p>
+</div>
+
+
+
+
+<div class="laptop3">
+    <img src="image/c.jpg" height="100px" width="100px">
+    <p><span class="lapyFeatures"><b>TYPE:     </b></span>
+   HP Notebook 15, Intel Core I3 
+    <br><br>
+    <span class="memory"><b>MEMORY:</b></span>8GB RAM<br><br>
+    <span class="lapyPrice"><b>PRICE:</b></span> #120k
+    <br><br><br>
+    <button class="buyNow3"><strong>BUY NOW</strong></button>
+    </p>
+    </div>
+
+
+
+    <div class="laptopC">
+        <p><span class="lapyFeaturesA"><b>TYPE:</b></span>
+            HP Notebook 15, Intel Core I3 8GB
+        <br><br>
+        <span class="lapyPriceA"><b>PRICE:</b></span> #120k
+        <br><br>
+     </p>
+    
+</div>
+
+
+
+<div class="laptop4">
+    <img src="image/d.jpg" height="100px" width="100px">
+    <p><span class="lapyFeatures"><b>TYPE: </b></span>
+   HP15
+    <br>
+    <span class="memory"><b>MEMORY:</b></span>4GB & 1TB 
+    <br><br>
+    <span class="lapyPrice"><b>PRICE:</b></span> #145000k
+    <br><br><br>
+    <button class="buyNow4"><strong>BUY NOW</strong></button>
+    </p>
+    </div>
+
+    
+<div class="laptopD">
+    <p><span class="lapyFeaturesA"><b>TYPE:</b></span>
+        HP15, 4GB & 1TB
+    <br><br>
+    <span class="lapyPriceA"><b>PRICE:</b></span> #145k
+    <br><br>
+ </p>
+
+</div>
+
+
+<div class="laptop5">
+    <img src="image/e.jpg" height="100px" width="100px">
+    <p><span class="lapyFeatures"><b>TYPE: </b></span>
+   INTEL
+    <br><br>
+    <span class="memory"><b>MEMORY:</b></span>8GB & 1TB 
+    <br><br>
+    <span class="lapyPrice"><b>PRICE:</b></span> #160000k
+    <br><br><br>
+    <button class="buyNow5"><strong>BUY NOW</strong></button>
+    </p>
+    </div>
+
+
+ 
+    <div class="laptopE">
+        <p><span class="lapyFeaturesA"><b>TYPE:</b></span>
+            INTEL 8GB & 1TB
+        <br><br>
+        <span class="lapyPriceA"><b>PRICE:</b></span> #160k
+        <br><br>
+     </p>
+
+</div>
+<div class="paymentPoint">
+<form name="paystuff" id="paystuff">
+    <label class="control-label" for="username">Email:</label><span class="required">*</span>
+    <input type="email" name="email" id="email" required="required" class="form-control" placeholder="Enter Email Address">
+    
+    
+    <form name="realness" id="realness">
+        
+    <h1>Select Payment Method</h1> 
+    
+    <input type="radio" name="PaymentMethod" value="creditCard" id="creditCard1" onclick="showHideDiv()" checked/>
+    <label for="chkCreditCard">Credit Card</label>
+    <input type="radio" name="PaymentMethod" value="PayPal" id="PayPal1" onclick="showHideDiv()">
+    <label for="chkPaypal">Paypal</label> <br>
+    
+    <div class="payDetails" style="display: block">
+    <br><hr>
+    <label>Name on the card:</label><span class="required">*</span><span class="errorMsg" ></span>
+    <input type="text" name="name" class="cardName" value="" placeholder="Name of Card">
+    
+    <br><br>
+    
+    <label class="control-label">Credit Card Number:</label><span class="required">*</span><span class="errorMsg1"></span>
+    <input class="ccn" type="text" inputmode="numeric" value="" id="txtChar" onkeypress="return isNumberKey(event)" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+    <br>
+    </div>
+    
+    <br>
+    
+    <button onclick="payNow()" class="payNow">Pay Now</button>
+    </form>
+</div>
+
+
+
+</div>
+    <!--  
+   
+
+       
+
+    
+               
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<form name="paystuff" id="paystuff">
+    <label class="control-label" for="username">Email:</label><span class="required">*</span>
+    <input type="email" name="email" id="email" required="required" class="form-control" placeholder="Enter Email Address">
+    
+    
+    <form name="realness" id="realness">
+    <h1>Select Payment Method</h1> 
+    <input type="radio" name="PaymentMethod" value="creditCard" id="creditCard1" onclick="showHideDiv()" checked/>
+    <label for="chkCreditCard">Credit Card</label>
+    <input type="radio" name="PaymentMethod" value="PayPal" id="PayPal1" onclick="showHideDiv()">
+    <label for="chkPaypal">Paypal</label> <br>
+    
+    <div class="payDetails" style="display: block">
+    <br><hr>
+    <label>Name on the card:</label><span class="required">*</span><span class="errorMsg" ></span>
+    <input type="text" name="name" class="cardName" value="" placeholder="Name of Card">
+    
+    <br><br>
+    
+    <label class="control-label">Credit Card Number:</label><span class="required">*</span><span class="errorMsg1"></span>
+    <input class="ccn" type="tel" inputmode="numeric" value="" pattern="[0-9\s]{13,1}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+    <br>
+    </div>
+    
+    <br>
+    
+    <button onclick="payNow()" class="payNow">Pay Now</button>
+    </form>
+
+
+-->
+<script src="laptop.js"></script>
+</body>
+</html>

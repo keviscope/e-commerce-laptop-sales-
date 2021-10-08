@@ -1,0 +1,447 @@
+
+
+@media only screen and (min-width:100px){
+.mainZone{
+    /*position: absolute;*/
+    left: 50%;
+   /* top: 50%;  */
+    margin-left: 450px;
+    /*transform: translate(-50%, -50%);*/
+
+}
+
+#prev{
+    border: none;
+    outline: none;
+    background: brown;
+    padding: 10px 20px;
+    color: bisque;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+#prev:hover{
+background: yellowgreen;
+}
+
+
+
+
+#getDetailsNow{
+    margin-left: 120px;
+}
+
+#getDetailsNow{
+    background-color: green;
+    color: White;
+    border: none;
+    cursor: pointer;
+    padding: 5px 5px;
+}
+
+
+#next{
+    border: none;
+    outline: none;
+    background: palegoldenrod;
+    padding: 10px 20px;
+    color: black;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-left: 250px;
+    margin-top: -100px;   
+}
+
+#next:hover{
+background: purple;
+}
+
+
+.lapyPrice{
+    color:blue;
+}
+
+.lapyFeatures{
+    color: brown;
+}
+
+.memory{
+    color: green;
+}
+
+.buyNow{
+    background-color: red;
+    padding : 10px;
+    margin: 10px auto;
+    color: beige;
+    margin-left: 120px;
+    cursor: pointer;
+   
+}
+
+
+.buyNow1{
+    background-color: red;
+    padding : 10px;
+    margin: 10px auto;
+    color: beige;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+
+
+.buyNow3{
+    background-color: red;
+    padding : 10px;
+    margin: 10px auto;
+    color: beige;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+
+
+.buyNow4{
+    background-color: red;
+    padding : 10px;
+    margin: 10px auto;
+    color: beige;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+
+
+
+
+.buyNow5{
+    background-color: red;
+    padding : 10px;
+    margin: 10px auto;
+    color: beige;
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+
+
+
+.buyNow:hover{
+    background: green;
+}
+
+.laptop1{
+    display: none;
+   
+}
+
+.laptop2{
+    display: none;
+
+}
+
+.laptop3{
+    display: none;
+}
+
+.laptop4{
+    display: none;
+}
+
+.laptop5{
+    display: none;
+}
+
+
+.required{
+    color:red;
+}
+
+.required2{
+    color: red;
+}
+
+
+.errorMsg1{
+    color:red;
+}
+
+
+
+
+
+.errorMsg{
+    color:red;
+}
+
+
+
+
+.laptopA{
+   display: none;
+}
+
+
+.laptopB{
+    display: none;
+}
+
+.laptopC{
+    display: none;
+}
+
+.laptopD{
+    display: none;
+}
+
+
+.laptopE{
+    display: none;
+}
+
+
+.payDetails{
+    display: block;
+}
+
+
+
+
+.paymentPoint{
+    display: none;
+}
+
+
+}
+
+
+
+
+@media only screen and (min-width:720px){
+
+    .mainZone{
+        /*position: absolute;*/
+        left: 50%;
+       /* top: 50%;  */
+        margin-left: 450px;
+        /*transform: translate(-50%, -50%);*/
+    
+    }
+    
+    #prev{
+        border: none;
+        outline: none;
+        background: brown;
+        padding: 10px 20px;
+        color: bisque;
+        cursor: pointer;
+        margin: 10px auto;
+    }
+    
+    #prev:hover{
+    background: yellowgreen;
+    }
+    
+    
+    
+    
+    #getDetailsNow{
+        margin-left: 70px;
+    }
+    
+    #getDetailsNow{
+        background-color: green;
+        color: White;
+        border: none;
+        cursor: pointer;
+        padding: 5px 5px;
+    }
+    
+    
+    #next{
+        border: none;
+        outline: none;
+        background: palegoldenrod;
+        padding: 10px 20px;
+        color: black;
+        cursor: pointer;
+        margin: 10px auto;
+        margin-left: 100px;
+        margin-top: -30px;   
+    }
+    
+    #next:hover{
+    background: purple;
+    }
+    
+    
+    .lapyPrice{
+        color:blue;
+    }
+    
+    .lapyFeatures{
+        color: brown;
+    }
+    
+    .memory{
+        color: green;
+    }
+    
+    .buyNow{
+        background-color: red;
+        padding : 10px;
+        margin: 10px auto;
+        color: beige;
+        margin-left: 120px;
+        cursor: pointer;
+       
+    }
+    
+    
+    .buyNow1{
+        background-color: red;
+        padding : 10px;
+        margin: 10px auto;
+        color: beige;
+        margin-left: 120px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .buyNow3{
+        background-color: red;
+        padding : 10px;
+        margin: 10px auto;
+        color: beige;
+        margin-left: 120px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .buyNow4{
+        background-color: red;
+        padding : 10px;
+        margin: 10px auto;
+        color: beige;
+        margin-left: 120px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    
+    .buyNow5{
+        background-color: red;
+        padding : 10px;
+        margin: 10px auto;
+        color: beige;
+        margin-left: 120px;
+        cursor: pointer;
+    }
+    
+    
+    
+    
+    .buyNow:hover{
+        background: green;
+    }
+    
+    .laptop1{
+        display: none;
+       
+    }
+    
+    .laptop2{
+        display: none;
+    
+    }
+    
+    .laptop3{
+        display: none;
+    }
+    
+    .laptop4{
+        display: none;
+    }
+    
+    .laptop5{
+        display: none;
+    }
+    
+    
+    .required{
+        color:red;
+    }
+    
+    .required2{
+        color: red;
+    }
+    
+    
+    .errorMsg1{
+        color:red;
+    }
+    
+    
+    
+    
+    
+    .errorMsg{
+        color:red;
+    }
+    
+    
+    
+    
+    .laptopA{
+       display: none;
+    }
+    
+    
+    .laptopB{
+        display: none;
+    }
+    
+    .laptopC{
+        display: none;
+    }
+    
+    .laptopD{
+        display: none;
+    }
+    
+    
+    .laptopE{
+        display: none;
+    }
+    
+    
+    .payDetails{
+        display: block;
+    }
+    
+    
+    
+    
+    .paymentPoint{
+        display: none;
+    }
+
+
+}
+
+
+
+
+.front{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
